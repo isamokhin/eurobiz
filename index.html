@@ -82,7 +82,7 @@
             <div class="register">
               <form role="form" method="POST" id="registrationForm">
                 <div class="form-group">                      
-                  <input type="text" id="regName" name="name" data-validation="length" data-validation-length="min4" class="form-control input-lg" placeholder="Ім’я">
+                  <input type="text" id="regName" name="name" data-validation="length" data-validation-length="min4" class="form-control input-lg" placeholder="Ім’я та прізвище">
                 </div>
                 <div class="form-group">                      
                   <input type="email" id="regMail" name="email" data-validation="email" class="form-control input-lg" placeholder="E-mail">
@@ -91,8 +91,15 @@
                   <input type="text" id="regPhone" name="phone" data-validation="required" class="form-control input-lg" placeholder="Телефон">
                 </div>
                 <div class="form-group">                      
-                  <input type="text" id="regPlan" name="city" data-validation="required" class="form-control input-lg" placeholder="Місто">
+                  <input type="text" id="regCompany" name="company" data-validation="length" data-validation-length="min2" class="form-control input-lg" placeholder="Компанія">
                 </div>
+                <div class="form-group">                      
+                  <input type="text" id="regPosition" name="position" data-validation="length" data-validation-length="min3" class="form-control input-lg" placeholder="Посада">
+                </div>
+                <div class="form-group">                      
+                  <input type="text" id="regCity" name="city" data-validation="length" data-validation-length="min3" class="form-control input-lg" placeholder="Місто">
+                </div>
+               
                 <button type="submit" class="btn btn-empty btn-block btn-lg">Зареєструватись</button>
               </form>
               <div class="ok">
@@ -499,7 +506,7 @@
           <div class="col-sm-12 social text-center">
             <ul class="list-inline">
               <li>
-                <a href="#"><i class="fa fa-twitter-square"></i></a>
+                <a href="https://twitter.com/UArazomEU"><i class="fa fa-twitter-square"></i></a>
                 <a href="https://www.facebook.com/StrongerTogetherUA"><i class="fa fa-facebook"></i></a>
               </li>
             </ul>
